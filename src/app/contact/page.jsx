@@ -1,4 +1,4 @@
-const LoginPage = () => {
-  return <div>LoginPage</div>;
+const ContactPage = () => {
+  return <div>ContactPage</div>;
 };
-export default LoginPage;
+export default ContactPage;
