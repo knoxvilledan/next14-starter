@@ -8,6 +8,6 @@
 }
 
 .active {
-  background-color: yellow;
-  color: green;
+  background-color: var(--text);
+  color: var(--bg);
 }
