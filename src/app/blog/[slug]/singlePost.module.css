@@ -26,6 +26,7 @@
 
 .detail {
   display: flex;
+  flex-direction: cplumn;
   gap: 20px;
 }
 

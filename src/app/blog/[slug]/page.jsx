@@ -32,20 +32,8 @@ const SinglePostPage = () => {
           </div>
         </div>
         <div className={styles.content}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          aut. Dolorum impedit sunt beatae laborum repellendus maiores cumque
-          optio? Voluptas aliquam incidunt quia excepturi harum veniam deleniti
-          perferendis dolores qui? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Quisquam Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Accusamus, aut. Dolorum impedit sunt beatae laborum
-          repellendus maiores cumque optio? Voluptas aliquam incidunt quia
-          excepturi harum veniam deleniti perferendis dolores qui? Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Quisquam Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Accusamus, aut. Dolorum
-          impedit sunt beatae laborum repellendus maiores cumque optio? Voluptas
-          aliquam incidunt quia excepturi harum veniam deleniti perferendis
-          dolores qui?
+          This will be for one of the first stories that I publish that will
+          showcase the Love that we have. This is Test 1 of blog posts.
         </div>
       </div>
     </div>

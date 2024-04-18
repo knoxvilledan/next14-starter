@@ -5,26 +5,25 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2 className={styles.subtitle}>About Agency</h2>
-        <h1 className={styles.title}>
-          We create digital ideas that are bigger, bolder, braver and better.
-        </h1>
+        <h2 className={styles.subtitle}>About Us</h2>
+        <h1 className={styles.title}>We've been married for almost 26 years</h1>
         <p className={styles.desc}>
-          We create digital ideas that are bigger, bolder, braver and better. We
-          believe in good ideas, flexibility, and precision.
+          We've built memories that are bigger, bolder, brighter and better than
+          most other marriages in America.. We believe in good ideas,
+          flexibility, and working daily for peace.
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <h1>10 +</h1>
-            <p>Years of Experience</p>
+            <h1>28 +</h1>
+            <p>Years of Friendship</p>
           </div>
           <div className={styles.box}>
-            <h1>10 +</h1>
-            <p>Years of Experience</p>
+            <h1>28 +</h1>
+            <p>Years of Relationship</p>
           </div>
           <div className={styles.box}>
-            <h1>10 +</h1>
-            <p>Years of Experience</p>
+            <h1>3</h1>
+            <p>Decades Together</p>
           </div>
         </div>
       </div>

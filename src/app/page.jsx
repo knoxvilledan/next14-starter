@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Creative Thoughts Agency</h1>
+        <h1 className={styles.title}>DNT The Real Deal</h1>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quia
-          voluptatibus. Quisquam, voluptatem. Nihil, quidem. Quisquam,
+          Ours was a story that was never meant to be told. It was a story that
+          forever changed the way we look at the world.{" "}
         </p>
         <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>
