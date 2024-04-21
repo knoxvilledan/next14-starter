@@ -54,8 +54,8 @@
     text-aglin: center;
   }
   .buttons {
-    background-color: red;
-    jsutify-content: center;
+    /*background-color: red;*/
+    justify-content: center;
   }
 }
 
