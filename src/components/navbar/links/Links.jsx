@@ -50,7 +50,7 @@ const Links = () => {
       <Image
         className={styles.menuButton}
         src="/menu.png"
-        alt="About Menu"
+        alt=""
         width={30}
         height={30}
         onClick={() => setOpen((prev) => !prev)}

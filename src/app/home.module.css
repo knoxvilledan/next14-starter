@@ -51,7 +51,7 @@
 @media (max-width: 1024px) {
   .container {
     flex-direction: column;
-    text-aglin: center;
+    text-align: center;
   }
   .buttons {
     /*background-color: red;*/

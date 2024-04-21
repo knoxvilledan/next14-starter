@@ -28,7 +28,7 @@ const SinglePostPage = () => {
           </div>
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Published</span>
-            <span className={styles.detailValue}>01.17.2024</span>
+            <span className={styles.detailValue}>04.21.2024</span>
           </div>
         </div>
         <div className={styles.content}>
