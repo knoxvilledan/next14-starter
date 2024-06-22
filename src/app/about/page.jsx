@@ -2,14 +2,18 @@ import Image from "next/image";
 import styles from "./about.module.css";
 
 const AboutPage = () => {
+  {
+    /*console.log("lets check where it works");
+     */
+  }
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h2 className={styles.subtitle}>About Us</h2>
-        <h1 className={styles.title}>We've been married for almost 26 years</h1>
+        <h1 className={styles.title}>We have been married for over 26 years</h1>
         <p className={styles.desc}>
-          We've built memories that are bigger, bolder, brighter and better than
-          most other marriages in America.. We believe in good ideas,
+          We have built memories that are bigger, bolder, brighter and better
+          than most other marriages in America.. We believe in good ideas,
           flexibility, and working daily for peace.
         </p>
         <div className={styles.boxes}>
@@ -22,8 +26,8 @@ const AboutPage = () => {
             <p>Years of Relationship</p>
           </div>
           <div className={styles.box}>
-            <h1>3</h1>
-            <p>Decades Together</p>
+            <h1>26 +</h1>
+            <p>Years of Marriage</p>
           </div>
         </div>
       </div>

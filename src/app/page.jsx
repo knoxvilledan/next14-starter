@@ -2,12 +2,13 @@ import Image from "next/image";
 import styles from "./home.module.css";
 
 const Home = () => {
+  //throw new Error("This is an error");  //*this is for testing error boundary//
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>DNT The Real Deal</h1>
         <p className={styles.desc}>
-          Ours was a story that was never meant to be told. It was a story that
+          Ours is a story that was never meant to be told. It is a story that
           forever changed the way we look at the world.{" "}
         </p>
         <div className={styles.buttons}>
