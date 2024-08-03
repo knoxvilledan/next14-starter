@@ -2,21 +2,6 @@ import { Post } from "./models";
 import { User } from "./models";
 import { connectToDb } from "./utils";
 
-// //TEMPORARY DATA
-// const users = [
-//   { id: 1, name: "John Doe" },
-//   { id: 2, name: "Jane Doe" },
-//   { id: 3, name: "Alice" },
-// ];
-
-// const posts = [
-//   { id: 1, title: "Post 1", body: "Body 1 2", userId: 1 },
-//   { id: 2, title: "Post 2", body: "Body 2", userId: 2 },
-//   { id: 3, title: "Post 3", body: "Body 3", userId: 3 },
-//   { id: 4, title: "Post 4", body: "Body 4", userId: 1 },
-//   { id: 5, title: "Post 5", body: "Body 5", userId: 2 },
-// ];
-
 export const getPosts = async () => {
   try {
     connectToDb();
@@ -31,7 +16,7 @@ export const getPosts = async () => {
 export const getPost = async (slug) => {
   try {
     connectToDb();
-    const post = await Post.find({ slug });
+    const post = await Post.findOne({ slug });
     return post;
   } catch (err) {
     console.log(err);
