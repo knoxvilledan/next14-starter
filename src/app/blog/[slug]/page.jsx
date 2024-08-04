@@ -18,7 +18,7 @@ const SinglePostPage = async ({ params }) => {
       )}
 
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Title</h1>
+        <h1 className={styles.title}>{post.title}</h1>
         <div className={styles.detail}>
           <Image
             className={styles.userImg}
@@ -40,10 +40,7 @@ const SinglePostPage = async ({ params }) => {
             </span>
           </div>
         </div>
-        <div className={styles.content}>
-          This will be for one of the first stories that I publish that will
-          showcase the Love that we have. This is Test 1 of blog posts.
-        </div>
+        <div className={styles.content}>{post.desc}</div>
       </div>
     </div>
   );

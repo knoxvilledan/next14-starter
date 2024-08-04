@@ -11,7 +11,7 @@ const NavigationTestPage = () => {
   const q = searchParams.get("q");
 
   console.log(q);
-
+  // The tutorial says you can also set a new query using set() method, Will need to research this later
   const handleClick = () => {
     console.log("clicked");
     router.forward();
