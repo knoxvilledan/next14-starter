@@ -55,7 +55,6 @@ const postSchema = new mongoose.Schema(
     slug: {
       type: String,
       required: true,
-      unique: true,
     },
   },
   { timestamps: true }

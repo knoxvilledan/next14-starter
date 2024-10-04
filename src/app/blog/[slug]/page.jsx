@@ -2,13 +2,15 @@ import Image from "next/image";
 import styles from "./singlePost.module.css";
 import PostUser from "@/components/postUser/postUser";
 import { Suspense } from "react";
-import { getPost } from "@/lib/data";
+import { getPosts } from "@/lib/data";
 
 const SinglePostPage = async ({ params }) => {
   const { slug } = params;
 
-  const post = await getPost(slug);
-  console.log(slug);
+  const post = await getPosts(slug);
+  console.log("slug", slug);
+  console.log("Post Data:", post);
+
   return (
     <div className={styles.container}>
       {post.img && (
@@ -20,13 +22,6 @@ const SinglePostPage = async ({ params }) => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>{post.title}</h1>
         <div className={styles.detail}>
-          <Image
-            className={styles.userImg}
-            src="https://images.pexels.com/photos/2738929/pexels-photo-2738929.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt=""
-            width={50}
-            height={50}
-          />
           {post && (
             <Suspense fallback={<div>Loading...</div>}>
               <PostUser userId={post.userId} />
@@ -36,7 +31,7 @@ const SinglePostPage = async ({ params }) => {
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Published</span>
             <span className={styles.detailValue}>
-              {post.createAt.toString()}
+              {post.createdAt ? post.createdAt.toString() : "no data"}
             </span>
           </div>
         </div>
